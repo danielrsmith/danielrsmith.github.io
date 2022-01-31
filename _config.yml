@@ -1,0 +1,15 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+
+title: Resident Geek
+copyright: 2022 Resident Geek
+
+author:
+  name: Daniel Smith # the name of your site, e.g. ACME Corp.
+  title: Software Engineer & Architect
+
+social_links:
+  Github: https://github.com/danielrsmith
+  Instagram: https://instagram.com/danielrsmith
+  Twitter: "https://twitter.com/danielrsmith"
+

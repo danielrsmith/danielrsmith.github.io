@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  {% include head.html %}
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>{{ site.author.name }}</h1>
+						<p>{{ site.author.title }}</p>
+						<nav>
+							<ul>
+                {% for social_link in site.social_links %}
+                  {% if social_link[1] %}
+								    <li><a href="{{ social_link[1] }}" class="icon brands fa-{{ social_link[0] | downcase }}"><span class="label">{{ social_link[0] }}</span></a></li>
+                  {% endif %}
+                {% endfor %}
+							</ul>
+						</nav>
+					</header>
+  {{ content }}
+  {% include footer.html %}
+	</body>
+</html>
