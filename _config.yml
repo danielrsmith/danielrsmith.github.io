@@ -4,6 +4,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: Resident Geek
 copyright: 2022 Resident Geek
 
+ga_code: UA-3911154-1
+
 author:
   name: Daniel Smith # the name of your site, e.g. ACME Corp.
   title: Software Engineer & Architect

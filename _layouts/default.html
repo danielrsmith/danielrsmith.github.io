@@ -20,7 +20,7 @@
 							<ul>
                 {% for social_link in site.social_links %}
                   {% if social_link[1] %}
-								    <li><a href="{{ social_link[1] }}" class="icon brands fa-{{ social_link[0] | downcase }}"><span class="label">{{ social_link[0] }}</span></a></li>
+								    <li><a href="{{ social_link[1] }}" class="icon brands fa-{{ social_link[0] | downcase }}" target="_blank"><span class="label">{{ social_link[0] }}</span></a></li>
                   {% endif %}
                 {% endfor %}
 							</ul>
